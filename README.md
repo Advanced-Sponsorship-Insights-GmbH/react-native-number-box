@@ -40,14 +40,6 @@ please refer to [react-native-vector-icons](https://github.com/oblador/react-nat
 
 [link to npm page](https://www.npmjs.com/package/react-native-number-box)
 
-## Responsive default size
-
-This component uses the [react-native-pixel-perfect](https://www.npmjs.com/package/react-native-pixel-perfect) and the default style is using base resolution for iPhone7, in case you want to use the default design but, using a different base resolution, I added a function called updateBaseResolution(width,height) to use it you need to access it via a ref to the component.
-
-Since the component is dependant on react-native-pixel-perfect, when installing this package you install also react-native-pixel-perfect if it's not already installed.
-
-So you can create your own responsive size function and use it to set your custom style.
-
 ## Usage
 
 ### import Component

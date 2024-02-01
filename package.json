@@ -37,8 +37,20 @@
   },
   "keywords": [
     "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
     "ios",
-    "android"
+    "android",
+    "number-input",
+    "numeric-input",
+    "number",
+    "input",
+    "numeric",
+    "box",
+    "number-box",
+    "react-native-number-box"
   ],
   "repository": {
     "type": "git",
@@ -158,8 +170,5 @@
       "module",
       "typescript"
     ]
-  },
-  "dependencies": {
-    "react-native-pixel-perfect": "^1.0.2"
   }
 }
