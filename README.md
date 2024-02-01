@@ -11,11 +11,11 @@ npm install react-native-number-box
 ## Usage
 
 ```js
-import { multiply } from 'react-native-number-box';
+import NumberBox from 'react-native-number-box';
 
 // ...
 
-const result = await multiply(3, 7);
+<NumberBox />
 ```
 
 ## Contributing

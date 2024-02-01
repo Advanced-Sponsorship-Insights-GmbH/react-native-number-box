@@ -159,5 +159,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-pixel-perfect": "^1.0.2"
   }
 }
