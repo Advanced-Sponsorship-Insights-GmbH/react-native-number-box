@@ -14700,7 +14700,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-builder-bob@npm:^0.20.0":
+"react-native-builder-bob@npm:^0.20.4":
   version: 0.20.4
   resolution: "react-native-builder-bob@npm:0.20.4"
   dependencies:
@@ -14771,7 +14771,7 @@ __metadata:
     prettier: ^2.0.5
     react: 18.2.0
     react-native: 0.73.2
-    react-native-builder-bob: ^0.20.0
+    react-native-builder-bob: ^0.20.4
     react-native-pixel-perfect: ^1.0.2
     release-it: ^15.0.0
     typescript: ^5.0.2
