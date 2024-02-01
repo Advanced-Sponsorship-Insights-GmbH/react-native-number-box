@@ -378,7 +378,7 @@ export default class NumericInput extends Component {
               style={{ flex: 1, width: '100%', alignItems: 'center' }}
             >
               <Icon
-                name="ios-arrow-up"
+                name="chevron-up"
                 size={fontSize}
                 style={[
                   ...iconStyle,
@@ -392,7 +392,7 @@ export default class NumericInput extends Component {
               style={{ flex: 1, width: '100%', alignItems: 'center' }}
             >
               <Icon
-                name="ios-arrow-down"
+                name="chevron-down"
                 size={fontSize}
                 style={[
                   ...iconStyle,
@@ -409,7 +409,7 @@ export default class NumericInput extends Component {
         <View style={inputContainerStyle}>
           <Button onPress={this.dec} style={leftButtonStyle}>
             <Icon
-              name="md-remove"
+              name="remove"
               size={fontSize}
               style={[
                 ...iconStyle,
@@ -435,7 +435,7 @@ export default class NumericInput extends Component {
           </View>
           <Button onPress={this.inc} style={rightButtonStyle}>
             <Icon
-              name="md-add"
+              name="add"
               size={fontSize}
               style={[
                 ...iconStyle,
