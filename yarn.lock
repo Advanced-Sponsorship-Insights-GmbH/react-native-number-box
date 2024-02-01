@@ -4082,12 +4082,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-native-vector-icons@npm:^6.4.18":
+  version: 6.4.18
+  resolution: "@types/react-native-vector-icons@npm:6.4.18"
+  dependencies:
+    "@types/react": "*"
+    "@types/react-native": ^0.70
+  checksum: 1ef458cb5e7a37f41eb400e3153940b1b152e4df76a7c06c7a47c712dbfe46e14b9999f04dde1bd074f338f850e161c6c925174ddea33386b74f8112c940065b
+  languageName: node
+  linkType: hard
+
 "@types/react-native@npm:0.70.0":
   version: 0.70.0
   resolution: "@types/react-native@npm:0.70.0"
   dependencies:
     "@types/react": "*"
   checksum: 0150a5520925ae009e49eb81e4ca528548ec118b95c363516362bba39ffc068f0df97c43e4543c10ac8f514a42e48cad312c9da49e37257c62180b36f921fa84
+  languageName: node
+  linkType: hard
+
+"@types/react-native@npm:^0.70":
+  version: 0.70.19
+  resolution: "@types/react-native@npm:0.70.19"
+  dependencies:
+    "@types/react": "*"
+  checksum: 79b504fa56340631079e7c20ea0d9412ec14147b76d0ce189f4403936f529ef1e6fd031383afab117846c5ae039123bcf3afc948bae4432269c6780282726f71
   languageName: node
   linkType: hard
 
@@ -14476,7 +14495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -14762,6 +14781,7 @@ __metadata:
     "@types/jest": ^28.1.2
     "@types/react": ~17.0.21
     "@types/react-native": 0.70.0
+    "@types/react-native-vector-icons": ^6.4.18
     commitlint: ^17.0.2
     del-cli: ^5.0.0
     eslint: ^8.4.1
@@ -14773,11 +14793,13 @@ __metadata:
     react-native: 0.73.2
     react-native-builder-bob: ^0.20.4
     react-native-pixel-perfect: ^1.0.2
+    react-native-vector-icons: ^10.0.3
     release-it: ^15.0.0
     typescript: ^5.0.2
   peerDependencies:
     react: "*"
     react-native: "*"
+    react-native-vector-icons: ^10.*
   languageName: unknown
   linkType: soft
 
@@ -14787,6 +14809,21 @@ __metadata:
   peerDependencies:
     react-native: "*"
   checksum: f268b7a42ef7379d5797ebb08dc1a59e187c0f30e431ded249d50912f3b7d56ef73c6705b61d454a9673a8ddd74b6aedcf89872751098cd0678fa060a3eaf5ad
+  languageName: node
+  linkType: hard
+
+"react-native-vector-icons@npm:^10.0.3":
+  version: 10.0.3
+  resolution: "react-native-vector-icons@npm:10.0.3"
+  dependencies:
+    prop-types: ^15.7.2
+    yargs: ^16.1.1
+  bin:
+    fa-upgrade.sh: bin/fa-upgrade.sh
+    fa5-upgrade: bin/fa5-upgrade.sh
+    fa6-upgrade: bin/fa6-upgrade.sh
+    generate-icon: bin/generate-icon.js
+  checksum: 77f22804b0217b4b21e8f4baaee6d33d09429bf55a31e07347fb5ab0af395b0d9adc0cbc3abd46f689ccaf07b953dc909eba95213bce7e03b562801fe4fd0768
   languageName: node
   linkType: hard
 
@@ -18144,7 +18181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^16.2.0":
+"yargs@npm:^16.1.1, yargs@npm:^16.2.0":
   version: 16.2.0
   resolution: "yargs@npm:16.2.0"
   dependencies:
