@@ -1,11 +1,11 @@
 {
   "name": "react-native-number-box",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stylish numeric input for react native",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
-  "types": "lib\\typescript\\src\\index.d.ts",
-  "react-native": "src\\index.tsx",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index.tsx",
   "source": "src/index",
   "files": [
     "src",
